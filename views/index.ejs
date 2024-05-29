@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookStore</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+.card img{
+            width: 70px;
+            height: 90px;
+        }
+        .buy{
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        .more-detail{
+            border: none;
+            border-radius: 5px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            background-color: grey;
+        }
+
+    .search-bar {
+      background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+      padding: 40px 0;
+    }
+
+    .search-bar input {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .book-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .footer {
+      background: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+    }
+    body{
+      background: url('../public/img/book.jpg');
+    }
+  </style>
+</head>
+
+<body class="bg-dark">
+ <section class="main">
+  <header class="bg-success text-light py-3">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-light fw-bold" href="#">BookStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Shop</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  
+
+  <section class="search-section text-center py-5">
+    <div class="container">
+      <div class="d-flex">
+        <div class="col-6">
+            <div class="card mt-5 p-3">
+                <div class="d-flex">
+                    <div class="col-4 mt-3">
+                <img src="https://up.yimg.com/ib/th?id=OIP.ptISe-dKxyCE4kQr4gJUOwC6Es&pid=Api&rs=1&c=1&qlt=95&w=73&h=118" alt="" class="">
+    
+                    </div>
+                    <div class="col-8">
+                        <h4>Oxfored Student</h4>
+                        <h6 class="mt-2 mb-2">Price : $199.00</h6>
+                        <div>
+                            <!-- <button class="more-detail">More Details</button> -->
+                            <!-- <a href="/buy" class=""><button class="bg-primary buy">Buy</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card mt-5 p-3">
+                <div class="d-flex">
+                    <div class="col-4 mt-3">
+                <img src="https://up.yimg.com/ib/th?id=OIP.EMyK2uhQmB8-_qiCufpl5wHaJx&pid=Api&rs=1&c=1&qlt=95&w=89&h=118" alt="" class="">
+    
+                    </div>
+                    <div class="col-8">
+                        <h4>Webster's</h4>
+                        <h6>Price : $299.00</h6>
+                        <div>
+                            <!-- <button class="more-detail">More Details</button> -->
+                            <!-- <a href="/buy1"><button class="bg-primary buy">Buy</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+    </div>
+    <div class="d-flex">
+        <div class="col-6">
+            <div class="card mt-5 p-3">
+                <div class="d-flex">
+                    <div class="col-4 mt-3">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.lF-llxuZtMPidccRN70HtgHaLH&pid=Api&P=0&h=220" alt="" class="">
+    
+                    </div>
+                    <div class="col-8">
+                        <h4>The Power Of knowledge</h4>
+                        <h6>Price : $99.00</h6>
+                        <div>
+                            <!-- <button class="more-detail">More Details</button> -->
+                            <!-- <a href="/buy2"><button class="bg-primary buy">Buy</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card mt-5 p-3">
+                <div class="d-flex">
+                    <div class="col-4 mt-3">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.cxTABxF8us214PINww7kZQHaLr&pid=Api&P=0&h=220" alt="" class="">
+    
+                    </div>
+                    <div class="col-8">
+                        <h4>General Knowledge</h4>
+                        <h6>Price : $149</h6>
+                        <div>
+                            <!-- <button class="more-detail">More Details</button> -->
+                            <!-- <a href="/buy3"><button class="bg-primary buy">Buy</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       </div>
+       <h3 class="mt-5 text-light">Find And Do order Book!</h3> 
+
+      <!-- <form class="form-inline justify-content-center mt-5"> -->
+        <!-- <input
+          class="form-control form-control-lg mr-2"
+          type="search"
+          placeholder="Search by book title"
+          aria-label="Search"
+        />  -->
+        <!-- <button class="btn btn-primary btn-lg" type="submit">Search</button>  -->
+      <!-- </form> -->
+    </div>
+  </section>
+
+  <div class="container form-container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 ">
+        <div class="card">
+          <div class="card-header text-center">
+            <h2 class="form-title bg-success p-3 text-light">Book Data</h2>
+          </div>
+          <div class="card-body">
+            <form action="" method="post">
+              <div class="form-group row">
+                <label for="url" class="col-sm-3 col-form-label">URL</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="url" name="url" placeholder="Enter book image URL">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="title" class="col-sm-3 col-form-label">Title</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="title" name="title" placeholder="Enter book title">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="author" class="col-sm-3 col-form-label">Author</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="author" name="author" placeholder="Enter book author">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="summary" class="col-sm-3 col-form-label">Summary</label>
+                <div class="col-sm-9">
+                  <textarea class="form-control" id="summary" name="summary" rows="3"
+                    placeholder="Enter book summary"></textarea>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="price" class="col-sm-3 col-form-label">Price</label>
+                <div class="col-sm-9">
+                  <input type="number" class="form-control" id="price" name="price" placeholder="Enter book price">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-9 offset-sm-3">
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5">
+    <div class="row">
+      <% bookstore.map(book=> {
+        let {url,title,author,summary,price,} = book
+        %>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card book-card">
+            <img src="<%= book.url %>" class="card-img-top" alt="<%= book.title %>">
+            <div class="card-body">
+              <h5 class="card-title">
+               Title :-  <%= book.title %>
+              </h5>
+              <p class="card-text">
+               Author :- <%= book.author %><br>
+               Summury :-   <%= book.summary.substring(0, 100) %> <br>
+               Price :- <%= book.price %>
+              </p>
+              <p>
+
+              </p>
+            </div>
+            <div class="mt-3 mb-3 ml-4">
+              <a href="/deleteData?id=<%=book._id%>" class="btn btn-danger mr-2">Delete</a>
+              <a href="/editData?id=<%=book._id%>" class="btn btn-primary">Edit</a>
+          </div>
+          </div>
+        </div>
+        <% }) %>
+    </div>
+  </div>
+
+ 
+ </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bookModalLabel">Book Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5 id="modalTitle"></h5>
+          <p><strong>Author: </strong><span id="modalAuthor"></span></p>
+          <p id="modalSummary"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $('#bookModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget);
+      var title = button.data('title');
+      var author = button.data('author');
+      var summary = button.data('summary');
+
+      var modal = $(this);
+      modal.find('.modal-title').text(title);
+      modal.find('#modalTitle').text(title);
+      modal.find('#modalAuthor').text(author);
+      modal.find('#modalSummary').text(summary);
+    });
+  </script>
+</body>
+
+</html>
